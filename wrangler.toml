@@ -1,0 +1,11 @@
+# Top-level configuration
+name = "kamen-s-backend"
+main = "core/entry.ts"
+minify = true
+
+workers_dev = true
+
+[[d1_databases]]
+binding = "Blogrolls"
+database_name = "blogroll"
+database_id = "7fd76be1-8ffc-44b8-8b09-dbc4d7e9a32a"
